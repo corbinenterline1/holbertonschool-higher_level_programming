@@ -11,20 +11,30 @@ Task # | Short Description
 [Task 7](7-islower.py) | Checks for lowercase character
 [Task 8](8-uppercase.py) | Prints a string in uppercase
 [Task 9](9-print_last_digit.py) | Prints the last digit of a number
-[Task 10]() | 
-[Task 11]() | 
-[Task 12](100-write.py) | 
-[Task 13](101-compile) | 
-[Task 14](102-magic_calculation.py) | 
+[Task 10](10-add.py) | Adds two integers & returns the result
+[Task 11](11-pow.py) | Computes `a` to the power of `b` and returns the value
+[Task 12](12-fizzbuzz.py) | Fizz Buzz
+[Task 13](13-insert_number.c) | Function in C that inserts a number into a singly linked list. Technical interview prep
+[Task 13](lists.h) | Header for Task 13
+[Task 14](100-print_tebahpla.py) | **ADVANCED-INCOMPLETE** Prints ASCII alphabet, in reverse order, alternating between lower & uppercase
+[Task 15](101-remove_char_at.py) | **ADVANCED-INCOMPLETE** Creates a copy of the string, removing character at position `n`
+[Task 16](102-magic_calculation.py) | **ADVANCED-INCOMPLETE** Python function that does the same as an example of Python bytecode
+
  ## Lessons Learned
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
-* 
+* Why Python programming is awesome
+* Why indentation is so important in Python
+* How to use the `if`, `if ... else` statements
+* How to use comments
+* How to affect values to variables
+* How to use the `while` and `for` loops
+* How is Python's `for` different from `C`'s?
+* How to use the `break` and `continues` statements
+* How to use `else` clauses on loops
+* What does the `pass` statement do, and when to use it
+* How to use `range`
+* What is a function & how do you use functions
+* What does return a function that does not use any `return` statement
+* Scope of variables
+* What's a traceback
+* What are the arithmetic operators & how to use them 
 
