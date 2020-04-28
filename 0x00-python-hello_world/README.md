@@ -8,14 +8,14 @@ Task # | Short Description
 [Task 4](4-print_float.py) | Prints the float stored in variable `number` with a precision of 2 digits.
 [Task 5](5-print_string.py) | Prints 3 times a string stored in variable `str` followed by its first 9 characters.
 [Task 6](6-concat.py) | Prints `Welcome to Holberton School!`
-[Task 6](7-edges.py) | Complete source code to fulfill requirements.
-[Task 6](8-concat_edges.py) | Prints `object-oriented programming with Python`
-[Task 6](9-easter_egg.py) | Script that prints "The Zen of Python"
-[Task 6](10-check_cycle.c) | Function that checks if a singly linked list has a cycle in it (Tech. interview prep)
+[Task 7](7-edges.py) | Complete source code to fulfill requirements.
+[Task 8](8-concat_edges.py) | Prints `object-oriented programming with Python`
+[Task 9](9-easter_egg.py) | Script that prints "The Zen of Python"
+[Task 10](10-check_cycle.c) | Function that checks if a singly linked list has a cycle in it (Tech. interview prep)
 [Task 10](lists.h) | Header for Task 10
-[Task 11](100-write.py) | **ADVANCED-INCOMPLETE** Prints `and that piece of art is useful - Dora Korpar, 2015-10-19`
+[Task 11](100-write.py) | Prints `and that piece of art is useful - Dora Korpar, 2015-10-19`
 [Task 12](101-compile) | **ADVANCED-INCOMPLETE** Script that compiles a Python script file.
-[Task 13](102-magic_calculation.py) | Write function that mirrors an example of Python bytecode
+[Task 13](102-magic_calculation.py) | **ADVANCED-INCOMPLETE** Write function that mirrors an example of Python bytecode
  ## Lessons Learned
 * Why Python programming is awesome
 * Who created Python
