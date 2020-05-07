@@ -42,4 +42,4 @@ def roman_to_int(roman_string):
                 b += 900
             else:
                 b += 1000
-    return (int(b)
+    return (int(b))
