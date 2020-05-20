@@ -1,10 +1,9 @@
-    #!/usr/bin/python3
+#!/usr/bin/python3
 """Class Square"""
 
 
 class Square:
     """class Square with a private attribute size"""
-    __size = 0
 
     def __init__(self, __size=0):
         """Initialization method with optional size parameter, with check
