@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+>>> add_integer = __import__('0-add_integer').add_integer
+
+
+>>> add_integer(8, 5)
+13
+
+>>> add_integer(3.14)
+101
+
+>>> add_integer(6.66, 8.19)
+14
+
+>>> add_integer(-10203)
+-10105
+
+>>> add_integer()
+Traceback (most recent call last):
+    ...
+TypeError: add_integer() missing 1 required positional argument: 'a'
+
+>>> add_integer("butt")
+Traceback (most recent call last):
+    ...
+TypeError: a must be an integer
+
+>>> add_integer(40, "head")
+Traceback (most recent call last):
+    ...
+TypeError: b must be an integer
