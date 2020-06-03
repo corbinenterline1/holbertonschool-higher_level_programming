@@ -10,8 +10,9 @@ class Square(__import__('9-rectangle').Rectangle):
     def __init__(self, size):
         """Initialization method for Square class. Size is validated
         by integer_validator method inherited from Rectangle's inheritance."""
-        super().__init__(size, size)
+        self.integer_validator("size", size)
         self.__size = size
+        super().__init__(size, size)
 
     def __str__(self):
         """overriding str to print square. should of printed class name"""
