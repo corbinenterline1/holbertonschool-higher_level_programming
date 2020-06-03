@@ -25,3 +25,12 @@ TypeError: print_sorted() takes 1 positional argument but 2 were given
 Traceback (most recent call last):
     ...
 TypeError: print_sorted() takes 1 positional argument but 3 were given
+>>> my_list.append(-7)
+>>> print(my_list)
+[6, 9, 4, 2, 0, 7, 77, -7]
+>>> my_list.append(-77)
+>>> my_list.print_sorted()
+[-77, -7, 0, 2, 4, 6, 7, 9, 77]
+>>> newer_list = MyList()
+>>> newer_list.print_sorted()
+[]
