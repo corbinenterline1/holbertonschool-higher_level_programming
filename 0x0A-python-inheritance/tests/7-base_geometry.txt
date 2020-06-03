@@ -1,0 +1,34 @@
+#!/usr/bin/python3
+>>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
+>>> bg = BaseGeometry()
+>>> bg.area()
+Traceback (most recent call last):
+    ...
+Exception: area() is not implemented
+>>> bg.integer_validator("spoopydemon", 666)
+>>> bg.integer_validator("almostdemon", (4789132124564897 - 4789132124564232))
+>>> bg.integer_validator("sexydemon", 669)
+>>> bg.integer_validator("sexyexception", "669")
+Traceback (most recent call last):
+    ...
+TypeError: sexyexception must be an integer
+>>> bg.integer_validator("floatdemon", 66.6)
+Traceback (most recent call last):
+    ...
+TypeError: floatdemon must be an integer
+>>> bg.integer_validator("falsedemon", False)
+Traceback (most recent call last):
+    ...
+ValueError: falsedemon must be greater than 0
+>>> bg.integer_validator("tupledemon", (66, 6))
+Traceback (most recent call last):
+    ...
+TypeError: tupledemon must be an integer
+>>> bg.integer_validator("negademon", -666)
+Traceback (most recent call last):
+    ...
+ValueError: negademon must be greater than 0
+>>> bg.integer_validator("nothngdemon", 0)
+Traceback (most recent call last):
+    ...
+ValueError: nothngdemon must be greater than 0
