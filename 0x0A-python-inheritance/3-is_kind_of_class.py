@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Module to check class or inherit from """
+"""Module to check class or inherit from """
 
 
 def is_kind_of_class(obj, a_class):

@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Module for checking sub class of function """
+"""Module for checking sub class of function """
 
 
 def inherits_from(obj, a_class):
