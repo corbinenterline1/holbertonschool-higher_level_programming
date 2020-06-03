@@ -11,7 +11,7 @@ def is_kind_of_class(obj, a_class):
         obj: Object to compare
         a_class: Class toc ompare object to
         """
-    if type(obj) == a_class or isinstance(obj, a_class):
+    if isinstance(obj, a_class):
         return True
     else:
         return False
