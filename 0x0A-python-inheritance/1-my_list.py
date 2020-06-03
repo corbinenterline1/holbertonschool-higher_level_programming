@@ -15,4 +15,5 @@ class MyList(list):
         Args:
             self: self
             """
-        print(sorted(self))
+        slisty = self[:]
+        print(sorted(slisty))
