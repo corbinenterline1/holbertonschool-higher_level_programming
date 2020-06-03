@@ -11,3 +11,4 @@ class Square(__import__('9-rectangle').Rectangle):
         """Initialization method for Square class. Size is validated
         by integer_validator method inherited from Rectangle's inheritance."""
         super().__init__(size, size)
+        self.__size = size
