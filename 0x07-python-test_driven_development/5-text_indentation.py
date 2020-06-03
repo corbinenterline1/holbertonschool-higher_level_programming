@@ -28,4 +28,7 @@ def text_indentation(text):
             print()
             continue
         else:
-            print(text[i], end='')
+            if text[i - 1] != ':':
+                print(text[i], end='')
+            else:
+                continue
