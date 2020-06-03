@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""Returns list of available attributes & methods of an object
-using dir()."""
+"""0x0A - 0 - Lookup"""
 
 
 def lookup(obj):

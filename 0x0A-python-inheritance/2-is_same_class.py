@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Module for is_same_class function"""
+"""0x0A - 2 - Exact same object"""
 
 
 def is_same_class(obj, a_class):
