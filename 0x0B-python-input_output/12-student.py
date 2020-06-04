@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""0x0B - 11 - Student to JSON"""
+"""0x0B - 12 - Student to JSON with filter"""
 
 
 class Student:
