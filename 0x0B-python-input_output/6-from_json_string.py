@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import json
 """0x0B - 6 - From JSON to Object"""
+import json
 
 
 def from_json_string(my_str):
