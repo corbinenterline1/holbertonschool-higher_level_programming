@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import json
 """0x0B - 8 - Create object from a JSON file"""
+import json
 
 
 def load_from_json_file(filename):
