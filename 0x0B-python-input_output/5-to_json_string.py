@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import json
 """0x0B - 5 - To JSON string"""
+import json
 
 
 def to_json_string(my_obj):
