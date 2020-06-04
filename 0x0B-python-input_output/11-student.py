@@ -8,7 +8,6 @@ class Student:
     first_name
     last_name
     age
-
     init present, to_json retrieves a dictionary representation
     of a Student instance.
     """
@@ -27,10 +26,10 @@ class Student:
         self.age = age
 
     def to_json(self):
-        """class_to_json returns the dictionary description with simple
+        """to_json returns the dictionary description with simple
         data structure (list, dictionary, string, integer & boolean)
         for JSON serialization of an object.
         Args:
         obj: object whose dict we need (phrasing lol)
         """
-        return obj.__dict__
+        return self.__dict__
