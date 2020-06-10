@@ -52,7 +52,7 @@ class Base:
         lsd = []    # LiSt of Dictionaries(representing objects)
         if list_objs is None:
             with open(fn, 'w') as jf:
-                jf.write(lsd)    # empty list saved to file
+                jf.write("[]")    # empty list saved to file
         for obj in list_objs:   # making list of dictionaries
             lsd.append(obj.to_dictionary())
         jslsd = Base.to_json_string(lsd)    # serializing list (to_json)
