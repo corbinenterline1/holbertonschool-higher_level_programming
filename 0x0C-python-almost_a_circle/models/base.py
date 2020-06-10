@@ -53,11 +53,12 @@ class Base:
         if list_objs is None:
             with open(fn, 'w') as jf:
                 jf.write("[]")    # empty list saved to file
-        for obj in list_objs:   # making list of dictionaries
-            lsd.append(obj.to_dictionary())
-        jslsd = Base.to_json_string(lsd)    # serializing list (to_json)
-        with open(fn, 'w') as jf:
-            jf.write(jslsd)
+        else:
+            for obj in list_objs:   # making list of dictionaries
+                lsd.append(obj.to_dictionary())
+            jslsd = Base.to_json_string(lsd)    # serializing list (to_json)
+            with open(fn, 'w') as jf:
+                jf.write(jslsd)
 
     @staticmethod
     def from_json_string(json_string):
