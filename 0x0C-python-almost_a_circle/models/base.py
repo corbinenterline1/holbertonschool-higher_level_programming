@@ -95,9 +95,12 @@ class Base:
         fn = str(cls.__name__) + '.json'
         lsi = []    # LiSt of instances
 
-        with open(fn) as f:  # hopefully catches no file, if not try block
-            for line in f:
-                lsd = Base.from_json_string(line)   # lsd is list of dicts
-            for objs in lsd:
-                lsi.append(cls.create(**objs))  # see why Base.create was funk
-        return lsi
+        try:
+            with open(fn) as f:  # hopefully catches no file, if not try block
+                for line in f:
+                    lsd = Base.from_json_string(line)   # lsd is list of dicts
+                for objs in lsd:
+                    lsi.append(cls.create(**objs))
+            return lsi
+        except FileNotFoundError:
+            return lsi
